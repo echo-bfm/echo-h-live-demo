@@ -1,0 +1,1024 @@
+{
+  "source": "../echo-live",
+  "profiles": 9,
+  "motions": 40,
+  "atlasPoints": 2878,
+  "files": 180,
+  "staticBytes": 255735235,
+  "maxFileBytes": 15603937,
+  "assets": [
+    {
+      "file": "assets/atlas-features-359609eab6ca2a91.f32",
+      "bytes": 736768,
+      "sha256": "359609eab6ca2a91b6619ea49dbff18045c8750c9bb4e838830e68a41f646dc2",
+      "compressed": false
+    },
+    {
+      "file": "assets/atlas.json",
+      "bytes": 445355,
+      "sha256": "e17efdc883192a199e766b6e12c4531cbdcfd4f5315b51aae9dcf7da651ec58f",
+      "compressed": false
+    },
+    {
+      "file": "assets/fixtures.json",
+      "bytes": 110627,
+      "sha256": "8f6adfe58e0c6ce6a102ad2d24d412d02a13d8ac8ff2ffa2264d512a0089d229",
+      "compressed": false
+    },
+    {
+      "file": "assets/fixtures/0/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "556c50986222265817cc3c10ffc20604ad67833f114117f75f2948104bd19e75",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "54e198149a0b7e8bb004e165f65954ab8fd9258290b5e4c0787389c0cf7bb169",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/long_valid.f32",
+      "bytes": 120,
+      "sha256": "6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "bdf034354eed3c2aff6674f8f84e172104b97d75769528bb2219e072454db59d",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "9678045383cbe734d507185d850690a8b63badba8388de699669f37a71d6dd3e",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "5073f02d00b572104f8c097c0c4c107d8466ba857dc7e69e03d4abcf073cff08",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "5ad20db1a422e3001ba10681788f7efabef2213dcea1a61dfa3236745bd38b39",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/0/short_valid.f32",
+      "bytes": 200,
+      "sha256": "6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "250480035176cb73a721b34ac3c334f11b40a4fb58c29f3a5697b66e5911f653",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "54e198149a0b7e8bb004e165f65954ab8fd9258290b5e4c0787389c0cf7bb169",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/long_valid.f32",
+      "bytes": 120,
+      "sha256": "6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "3f1d9ec6f70d1b805ca54b6079ddaa7c33af2ba99959d868cc48e7ca74ac3976",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "8f2e569cba7fd7dcf45e95954d4a24b3ea4449d578cb3f11ff294e09754e2ded",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "c483b63d1828a9e70002e6aab739d9681f9793f43e186872899b43bf089cc8f1",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "1b82738bd3c55e8e0b0e9679592fe7b8b061b727d4053349e1d1337c6290ed64",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1/short_valid.f32",
+      "bytes": 200,
+      "sha256": "5ef77de26488765f53d23ce45477b5584257faac6f14c3bff7d0cd6457505dac",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "1e897c571f48d98597e7125f27c667cee3eb0dd411967830fd163a9fa0093078",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "b38b434223ea25470efc9ef759f193c4a02735b135736d8f0c14b319f2e5e2ff",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "1300b69dc06de71a24a43acf67e2635dfaee46c3d2529908dafe0b450ef8ba0f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "241118f3cc4833005e1b0fb0f643fa9617f0280b0ffabee8af9b610588388ed9",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "ee6319f360add44b9e160303c6587f79c5055e5a122f64c41aabb689f4501eb3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "642c19fbfd6ff7a925a774f65b2244fd7a5553e68e0ac7b80c4c90a289340a6b",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "718deb258669beae08df97f4f5191a5ca1357f119ee3d609d4854b4bdbeadd69",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/1100/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "d8b217f65ce917679599ac8292bed68b33a74d402f9c12365f0369d78329a620",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "e7de47bfe04b1b89e707e390a17d3fb59805119ae616ec9c734323e3491f1913",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/long_valid.f32",
+      "bytes": 120,
+      "sha256": "1a55e481ebc836d2abf0df6023b8e5a83ed52400d2ef4d5987d0c684528b1cb1",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "fa2c4cfa7577e429b0486855710566c68e6d0b6dc8e3744628b69be8b8421321",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "c431c91db2a4f58ee5a3930479393d0d43fae2f060102e57d9dbc75b73301e96",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "b93112d6d51326de181a69452c5ba4265464efd31f404b372c9a46bc76849582",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "d103ff94aa38d0e8b6b6050ef072aee07b600662c5a5649367c0e428ba1750c7",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/349/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "ec1e877a89703dd7f4874c498c601bfdb1a916293049a3f18d4da01ae6097509",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "fd4cec3a88fab279655a80a2cfedafde5880b875d671a598ff1ea60ff4da76c0",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "1074862cbf1dc4ef3226bd3b8d4f99ce971d1eaeddb7c26bef377689e6210e91",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "b76a486ba1b137b799844ceda164c17ce7abe6496a23ea4edc02c17f96b24154",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "1c2af5f3c9b8a8892ae0b62ff57b1fb041510c641ea5fdd2da2a9c239a549886",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "3f1b37e065092e937590845ccb750f6b482e24e5ac6813c9be106df91884f709",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/350/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "64c84eee746a04668661bab019e3a77a546363c172a9e264e75568074943cd42",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "6f8017e01720c91392ef922177d30f5038ee1fbaa20422055a3fbebeb334057f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "f92cebb97601d08bb3722e955da3d0fce751bf1582e7effb4bfc3066a56b1e1b",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "a18603c6ae2b987c0be795d258c6bb517b65e31567b59a5af549697a1a0ca9e3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "2131e30842b0c8bfe0a632f1e57b7f23e7cec847777054757e92a1adbe67cf51",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "da5a44ed29ce744adbc3f3965ed3afa31750a7ba9d7d9b0398fc9234539a136f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "8ece4bced83e6c1e7cbb1089ce7cb69319347367cbfa5bed6ee158f4fc3b2740",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/499/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "ca2c00b35c47bede20d47ca98a1440bb38a7dccb5abad1b88c50ae3e66f8840a",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "6dac7a0fb01f2f892b6e4bdfe3d00081d0df477426a14e09e8d8bfc970b11511",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "4d654895e42454e7d77cacfabd26aef984fa21c2b248b2525f158055a1824a2c",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "e88d4777b145b6d9b5c46800efe4b898e95160a47c2e2474ec33388c7d7a8a00",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "d5051b259548449f46d85bbd6ab60a95d9293f07e41338a4f647b380d31b7e86",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "64b668dc388ee43972fec46b0f6a1c643d3318990c894858d37136c1259dc728",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "4cab6d5e35e6e84c9a7efecb13c7d8ac7c613f0d4cd5e29564b1f26c361abcae",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/500/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "ecaa086c20300ef60fb7557484764819df825d471b819723eff8c7ac11f8f60d",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "6dac7a0fb01f2f892b6e4bdfe3d00081d0df477426a14e09e8d8bfc970b11511",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "07b4cae1536c3d97f457280a047e792847b06b0bd73a57a8bda10b2783c3239f",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "2795f7cef1b358f247fee26501bfaa01a1e79aa975b40f43718c569f1e3143cb",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "f248590664cf011f96ee09c4e31d38a7867d84b8cd40c572db92b112cc668eb1",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "5cde42d3f2e35de30ea263303191eb0209f0fb2dd48bfa1c458ec99dbfed5927",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "da850a293f082697a2db226abd02336ca50f3562b785b4f95d06eff196162b70",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/501/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "51e87d92595758235e93438c52953ad8a839d2a5947e4b6903b556f905b07520",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "44b6fb04143d7baabc82001ed34f0a12115ecc3b7fcb3de3eb10de1e1f5a819e",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "061a1f1265f2834fa63779b62d1676b86559647990cdaeed4f930954ae1306a3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "474a869f34dbea2fdebb11b9e6dccdaf90eeec49c0017e39bda5c06c30a653ad",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "d0c77f0ef719c20bb29f8400b702090e031a1296e34d0cbd6ab348b923eaa262",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "5a04a9056585a4ef73ebe81210357c89e4282e78697a0bc9531f1bb9de8a40b1",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "04ff978d245d51cf98a9a5c62993763bbcc7c98675afe51ce3886a121bd39147",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/899/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "7cc4f8c931d55f3c53d85cbec5ea4de427779df8852fcb8afc0295a69361d7be",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "702a83701ef8ef9ff0892810dee342d9de5444aac76aa3cd41e311aeeaa219b0",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "4394d254dd6ea7cb0890c630863b21e7f142962f21e4a15c6c1715996d235a39",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "f359fa7d5ec8f6eb09f943dd0e65f17b5c77887f8171a7697be5f666ed42f842",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "e0c054b51cf62b23fcd401afe8b0e46f93ec86cf97fcf6f79b7985275ebdbd7b",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "1c93dfee6cddc4f247d244d7cbbb45e508c248621df0995d189f62ebe421476a",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "df03f6116abed736c1d6d15d338929f17b1ac7977bda3b031ef60cee57825c42",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/900/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/estimator_history.f32",
+      "bytes": 24400,
+      "sha256": "4c30c11cf0b08d5708f73269ff659ba717bfc57087d1c42193f6c3e2a90953ee",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/long_interactions.f32",
+      "bytes": 327600,
+      "sha256": "702a83701ef8ef9ff0892810dee342d9de5444aac76aa3cd41e311aeeaa219b0",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/long_valid.f32",
+      "bytes": 120,
+      "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/previous_latents.f32",
+      "bytes": 1024,
+      "sha256": "da2d4134adb403efa25f7bc3701ac94b5877f4ed1dbc8e9c21466955c19d9b12",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/reference_encoder_input.f32",
+      "bytes": 7600,
+      "sha256": "b4e25f3ed6bf02f27c24bd3e0387b4738f1e1c688d82d6aa32cfb8524524831b",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/robot_key_body.f32",
+      "bytes": 780,
+      "sha256": "3c8b270c844d99b3bacf30c8f5755303518168e4856ad8c2e0237400671b9aef",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/robot_root_quat.f32",
+      "bytes": 16,
+      "sha256": "30087a6d23d41945149689a7254ebe924b354bb986769ec8c0644022b9ecb927",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/short_interactions.f32",
+      "bytes": 54600,
+      "sha256": "85c6bed51e15290f2046a7fcd0e45331d7dfd27e2b919300a7de9b10554362d1",
+      "compressed": true
+    },
+    {
+      "file": "assets/fixtures/901/short_valid.f32",
+      "bytes": 200,
+      "sha256": "12931115699e16446535237e2d65fb64aefa0f964193d7e793b2c846fcf9c3b3",
+      "compressed": true
+    },
+    {
+      "file": "assets/hdr.json",
+      "bytes": 371626,
+      "sha256": "62ec22a58d476f2622803ba2185bae462e5da71051aaf095d4e7d4e9a03bc7b3",
+      "compressed": false
+    },
+    {
+      "file": "assets/kinematics.mjb",
+      "bytes": 35243,
+      "sha256": "7e8be7cbe0c35058d1e984bb1353f000fb5059d196785dfb457fe479f9124d61",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance1_subject1-0bd2afd6e1b4.f64",
+      "bytes": 1893600,
+      "sha256": "0bd2afd6e1b4507e3800e9c09053c19df92209697b604aa6314a2adba58a018f",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance1_subject2-436f5b1e6c42.f64",
+      "bytes": 1893600,
+      "sha256": "436f5b1e6c429e0cdc5a3322d903bd8138af2c0ea81320d4a26f3d331c92b221",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance1_subject3-3116677e6467.f64",
+      "bytes": 1893600,
+      "sha256": "3116677e6467e14c8bd29efede56390652a2f3dae7c9b1ecedd88f939cd16b32",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance2_subject1-3443154f2d82.f64",
+      "bytes": 3250080,
+      "sha256": "3443154f2d82e6560e898cf4f54be3303738ce3abaadae8766089e0b7ff379c5",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance2_subject2-083741ad6bfb.f64",
+      "bytes": 3250080,
+      "sha256": "083741ad6bfb6f08e05573cde10c0534df050af14b02ad48dd1c350ccaecb734",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance2_subject3-cadcfca634a6.f64",
+      "bytes": 3250080,
+      "sha256": "cadcfca634a657ef9e747411d0775c8e7831dc7654d6e1d7b439d9ad7a201900",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance2_subject4-518d197e41f8.f64",
+      "bytes": 3250080,
+      "sha256": "518d197e41f8c52f023c92f82e4ac55389b2a4e939e536f742dedc363187b9e7",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/dance2_subject5-c2a08c959620.f64",
+      "bytes": 3250080,
+      "sha256": "c2a08c959620903c23deac88987a4c1c2f47fefe8440e6ed15e8d67d9fc41e9f",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp1_subject1-433a3589fce6.f64",
+      "bytes": 2422368,
+      "sha256": "433a3589fce673a7b00ead8aec1c760ef0103590068b624b3d017837335a806c",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp1_subject4-4b6816021773.f64",
+      "bytes": 2422368,
+      "sha256": "4b681602177326087ba0a3a11047d5ffe7d7c53f454575b5dcaa8fd99f146512",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp1_subject5-9392c9b56bb1.f64",
+      "bytes": 2422368,
+      "sha256": "9392c9b56bb18c69df80dc06e0d2a36390988577b933f11811c04d245b3a0639",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp2_subject2-3a6c7377fa26.f64",
+      "bytes": 2360448,
+      "sha256": "3a6c7377fa26d657728033dfd5dd78869f81c0923c47f50c11147c4f4074dd7e",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp2_subject3-727904ec5a81.f64",
+      "bytes": 2360448,
+      "sha256": "727904ec5a812245e1af8b5e2b0eb4dee81b014f728341fb0d74739c429b9c02",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fallAndGetUp3_subject1-972435000407.f64",
+      "bytes": 1471680,
+      "sha256": "972435000407128d1e56f1c0e896be3b497474f4028afaafd8d0dd83cd9be14c",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fight1_subject2-949daea39d17.f64",
+      "bytes": 3526560,
+      "sha256": "949daea39d17447a33e73f146ce80a25842fae1fa7fb69d98e4306ed319a4d90",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fight1_subject3-2565e05df9e0.f64",
+      "bytes": 3526560,
+      "sha256": "2565e05df9e0df5e84b40d8756e2e85d6c7b60c7dec294b2664b78e3637d609c",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fight1_subject5-6d378baf8fe8.f64",
+      "bytes": 3526560,
+      "sha256": "6d378baf8fe8f0c6a939dd74110b1b095fad52afe782f0ea3b129dcc52e8138c",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fightAndSports1_subject1-0c9b167f3c07.f64",
+      "bytes": 3530304,
+      "sha256": "0c9b167f3c07ddc53f222f00c19fae285457ef30f76657364259501c8ffb21a1",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/fightAndSports1_subject4-7fa479b22a64.f64",
+      "bytes": 3530304,
+      "sha256": "7fa479b22a648a691e62b735001e54efb4606507560ff1bbae44026ccde7ac9f",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/jumps1_subject1-2e0bd634e74b.f64",
+      "bytes": 3520224,
+      "sha256": "2e0bd634e74ba3f7c618e1d280ffa3ee4eb4d495060935c1b16b198cd7ed66d8",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/jumps1_subject2-a81033bd94de.f64",
+      "bytes": 3520224,
+      "sha256": "a81033bd94de6626ff09f02cd8daf70e468cea0639fd37592923688c5654d936",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/jumps1_subject5-ff48db009760.f64",
+      "bytes": 3520224,
+      "sha256": "ff48db0097607d041d5234aedb718dbd3ecf751017280ad55df191f9319ac8c6",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/manifest.json",
+      "bytes": 19472,
+      "sha256": "1593f745f96fdcd3eb1c9176a081be13d1edf51bac1acff576c22d947444be23",
+      "compressed": false
+    },
+    {
+      "file": "assets/motions/run1_subject2-dd989fb7a047.f64",
+      "bytes": 3424608,
+      "sha256": "dd989fb7a047457f3398c5332b370db9de901711a76b4a7b5c71c020bca3d4c4",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/run1_subject5-23af9df6c4af.f64",
+      "bytes": 3424608,
+      "sha256": "23af9df6c4af7b3f94733a9eeea1f3f37057755bf46e1a112ad9752d4b2394bf",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/run2_subject1-81f7767c293d.f64",
+      "bytes": 3525408,
+      "sha256": "81f7767c293d429caac65ecd43fc1ac52978fa06e155f82cdcb9759b7b693c8d",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/run2_subject4-3342f5ca7bf7.f64",
+      "bytes": 3525408,
+      "sha256": "3342f5ca7bf7643d832bec59ebacd143b2d4cfe68dbfb2ecedc2dfcf0b617475",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/sprint1_subject2-737bfde39fbf.f64",
+      "bytes": 3932928,
+      "sha256": "737bfde39fbf0ed4aeb866bfac0130f77e3cff62431e45523b2f3f3eff55265e",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/sprint1_subject4-6661d9bb63e0.f64",
+      "bytes": 3932928,
+      "sha256": "6661d9bb63e0b4c269e83f37e0596d66b26824de49d25fa551484049386d93c0",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk1_subject1-087245d9226e.f64",
+      "bytes": 3763008,
+      "sha256": "087245d9226e9c7d77d18e54b441cf3264279d5a57a214a37127dc9dbd340f31",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk1_subject2-3859353ea15e.f64",
+      "bytes": 3763008,
+      "sha256": "3859353ea15e4babfd53d296369dc7ca8374b8f168f2a305f511036f7b56595c",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk1_subject5-b6168b947f67.f64",
+      "bytes": 3763008,
+      "sha256": "b6168b947f67c28af2cddb18d1d2a77cbe3f5de9af33ca133783bb28f2694d8a",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk2_subject1-1573406a7eae.f64",
+      "bytes": 3430080,
+      "sha256": "1573406a7eae47a4c21a851f0edde4f340d05466955fed289b9d38702aa86ac1",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk2_subject3-dc7a6e0fbe8a.f64",
+      "bytes": 3430080,
+      "sha256": "dc7a6e0fbe8ad38ffcacea7686f823c3506cb7cbadb43800724de6319a1a513d",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk2_subject4-7cc1afbdbc22.f64",
+      "bytes": 3430080,
+      "sha256": "7cc1afbdbc2210a88f235dea00762e8d601756c7dc9752dcc4203d8e84faeded",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk3_subject1-82533f907881.f64",
+      "bytes": 3551328,
+      "sha256": "82533f9078812a2878ca2052ae961a72025290eb5a6a98ce21df098d42ac3a55",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk3_subject2-fed93d1a2223.f64",
+      "bytes": 3551328,
+      "sha256": "fed93d1a2223967daedeeae78bc33c6a914e9bfa7c38d213e01b904ecbed6802",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk3_subject3-b19e96d9c15e.f64",
+      "bytes": 3551328,
+      "sha256": "b19e96d9c15eabebe08dd3f48e6efd4ca8eb6739a8f2a9e0ce9e336752812791",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk3_subject4-1e7f04c0bdcf.f64",
+      "bytes": 3551328,
+      "sha256": "1e7f04c0bdcf7ad1defd2dfa396b5dc9dab84e5732770b189f5652790d9630ab",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk3_subject5-106efdf8084f.f64",
+      "bytes": 3551328,
+      "sha256": "106efdf8084ff5d501864be620f91bd60a67e82b19122e5ea834c8839e25a049",
+      "compressed": true
+    },
+    {
+      "file": "assets/motions/walk4_subject1-65573048723f.f64",
+      "bytes": 2360448,
+      "sha256": "65573048723f37e5111e96d63dcb3c19570e5786570fea89e66e1f65729d49a3",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/chunk.onnx",
+      "bytes": 1773207,
+      "sha256": "07d194a1d292832eec0cc9900b4bf6cdbb444b30c89d5c1e42c3cdf12981991a",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-0.f32",
+      "bytes": 382520,
+      "sha256": "7b24fc8258facfb7c44b456f24968e6542ac2799dca5f3bb78b516fffb5979aa",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-1.f32",
+      "bytes": 382520,
+      "sha256": "15cc783bd0c59998993e8cf30b6b3f152d3b53dbb1db5f780ea43ab1bfe0ce10",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-2.f32",
+      "bytes": 382520,
+      "sha256": "719fa1ddc4cb3bb87f2273ec9ade6c81fd36feb8d7b92d6d39acf865fde1bafd",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-3.f32",
+      "bytes": 382520,
+      "sha256": "50686053e5e3ad11ff91f34c063d710a27bdcd3e87ce162e2c32e63a1ded5bcb",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-4.f32",
+      "bytes": 382520,
+      "sha256": "c5853616ee28fd7294ba81de24b2b044912df4f6f5195a0af51dc4c5a2975e27",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-5.f32",
+      "bytes": 382520,
+      "sha256": "18802eee2341f1eaffb6b9d97b5785b503ff9e0ff4b8b22dc8f54d14c20e51d1",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/fixture-6.f32",
+      "bytes": 382520,
+      "sha256": "00b1eb0a97269cee63a570b6f0e03b3f2cebb9f055f24e7c3a7f1802a5a1f074",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/manifest.json",
+      "bytes": 11389,
+      "sha256": "22eda235ab8e26559fc3b0e1ab0626885ca54ea1e95f5e63f249ac1c3e34f751",
+      "compressed": false
+    },
+    {
+      "file": "assets/observer/memory.onnx",
+      "bytes": 3270578,
+      "sha256": "df65393715b819b1cf78624443132eeba6ad59c3581c731d9afdd71d0acddddf",
+      "compressed": true
+    },
+    {
+      "file": "assets/observer/readout.onnx",
+      "bytes": 3459615,
+      "sha256": "5bbd86839c40d123b786d68ce4649c760a2681821aa98b207bc448be997976aa",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/chunk.onnx",
+      "bytes": 1773207,
+      "sha256": "e48fefe68490c481c03ba7303b7b6a32949ad01a0d2fa4d88e975bd2100a536d",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/manifest.json",
+      "bytes": 3456,
+      "sha256": "471f630770744dc260c2bdce088cefeef1bc7e0b5572637ec8b649a2f2674373",
+      "compressed": false
+    },
+    {
+      "file": "assets/optimized/memory.onnx",
+      "bytes": 3270578,
+      "sha256": "9cf25f486518598ee4a2ca7d502fc2f66e4246889400c17fd01a42b410e14a83",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/policy.onnx",
+      "bytes": 8220423,
+      "sha256": "af62bdbcd63882d1bcba425d59736560da9011fd598a6a044d1a9ff074ba663e",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/reference-cache.f32",
+      "bytes": 3823188,
+      "sha256": "2151fdfe7f50ecf243ec18aaa6f5d3cf2d235469681a8b95af22a32d0cff9bd7",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/reference.onnx",
+      "bytes": 5478031,
+      "sha256": "7bd6c9199b2ea1e859dea50a362c1e0aa9c0fdee29711fe007a4a19a3e47c34d",
+      "compressed": true
+    },
+    {
+      "file": "assets/optimized/tracker.onnx",
+      "bytes": 59110978,
+      "sha256": "355a7c9deaa40231329a07366a125e71804d9c9aa5182e2aa4155c7c8c01bf8e",
+      "compressed": true
+    },
+    {
+      "file": "assets/provenance.json",
+      "bytes": 3371,
+      "sha256": "52aedebc08264a1a6ec9d11c07be3f697e900cbd5cde9eb8f29edb154a5edc49",
+      "compressed": false
+    },
+    {
+      "file": "assets/reference-qpos.f64",
+      "bytes": 461088,
+      "sha256": "98cc92dbfb8b017e2864e32dec54c5721cbbee116132a0d6624fe1791f379ffe",
+      "compressed": true
+    },
+    {
+      "file": "assets/reference.f32",
+      "bytes": 243352,
+      "sha256": "6ac1dd66643c118697afafc4224662e4253a984a0a46401c44432ecba02d08f4",
+      "compressed": true
+    },
+    {
+      "file": "assets/scene.mjb",
+      "bytes": 71156330,
+      "sha256": "08eafe8da79d5695d62a111ed131d416baf3c48f9ba7c468bebc821c384f5c05",
+      "compressed": true
+    }
+  ],
+  "sourceCodeHashes": {
+    "app.js": "4e156518aaa3ec2d86427e11f44e726f877ece63f10954104cec65eca5d1d772",
+    "worker.js": "1ecc7b0d92e5d485a17411ec4160726b57fa26309c3d2e9d99042678d23b7594",
+    "runtime.js": "e7f408672621f126a5239ddd1582e2b1e76aab61342958335a5bdbc3515a621d",
+    "cpu-policy.js": "7924f161803e1742b319c1a5742448a78b5a9070e6a653a4d28520ed3afa29fe",
+    "motion.js": "407c662c078b994b501d28b32edbd8f814ede871466b40b262b1d64b09fca75e",
+    "hdr-noise.js": "af213d78c29b947a994815ae4d97fc2d7725252bc6226cf9f169b56fa3d454bd",
+    "latent-atlas.js": "3fd454f8d1b106e615d6cf5e4d3677035870dadcacb1467f62a57b6163ccf67d",
+    "atlas-projection.js": "57dd5b975663d0690b0dcdbf2aeacdad6b6fe57384b1bea62c87dfc026261aa3",
+    "atlas-worker.js": "03be5ad6d8b9e38df8c384f7bfe5588dc5afd942a1c92d39890941e3c00b1e9c"
+  }
+}

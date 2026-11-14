@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="Explore ECHO-H in your browser. Play a humanoid motion, change the load in either hand, and watch its physical response and live context representation.">
+  <title>ECHO-H · Live payload lab</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}</script>
+  <link rel="modulepreload" href="app.js?v=20261113-online">
+  <link rel="modulepreload" href="vendor/three.module.js">
+  <link rel="modulepreload" href="vendor/three.core.js">
+  <link rel="modulepreload" href="vendor/addons/controls/OrbitControls.js">
+  <link rel="modulepreload" href="latent-atlas.js">
+  <link rel="modulepreload" href="worker.js?v=20261113-online">
+  <link rel="modulepreload" href="cpu-policy.js?v=20261113-online">
+  <link rel="modulepreload" href="runtime.js?v=20261113-online">
+  <link rel="modulepreload" href="asset-loader.js?v=20261113-online">
+  <link rel="modulepreload" href="asset-map.js?v=20261113-online">
+  <link rel="modulepreload" href="vendor/mujoco.js">
+  <link rel="modulepreload" href="vendor/ort.wasm.bundle.min.mjs">
+  <link rel="preload" href="assets/config.json" as="fetch" crossorigin>
+  <link rel="preload" href="assets/optimized/manifest.json" as="fetch" crossorigin>
+  <link rel="preload" href="assets/observer/manifest.json" as="fetch" crossorigin>
+</head>
+<body>
+  <header>
+    <div class="brand"><div><strong>ECHO–H</strong><span class="subtitle">Live payload lab</span></div></div>
+    <span class="local"><span aria-hidden="true"></span> Interactive research demo</span>
+  </header>
+  <main>
+    <div class="welcome-grid">
+      <section class="module intro" aria-labelledby="page-title">
+        <h1 class="module-title" id="page-title">Demo overview</h1>
+        <p><strong>Change the load in either hand as a humanoid follows a reference motion. Watch how ECHO–H responds, and explore its live representation of the physical conditions.</strong></p>
+      </section>
+      <section class="module guide-panel" aria-labelledby="guide-title">
+        <h2 class="module-title" id="guide-title">How to use</h2>
+        <ol class="quick-start">
+          <li><span class="step-number">1</span><div><strong>Choose a motion</strong><span>Select a reference from the motion library.</span></div></li>
+          <li><span class="step-number">2</span><div><strong>Press Start</strong><span>Watch the humanoid perform in simulation.</span></div></li>
+          <li><span class="step-number">3</span><div><strong>Change the load</strong><span>Adjust the hand loads and observe the live context representation in the atlas.</span></div></li>
+        </ol>
+      </section>
+    </div>
+    <div class="workspace">
+      <section class="module control-panel" aria-labelledby="controls-title">
+        <div class="section-head"><h2 id="controls-title">Motion &amp; loads</h2><span class="dot-label" id="applied">Loading</span></div>
+        <label class="motion-label" for="motion">Reference motion</label>
+        <select id="motion" disabled aria-describedby="motion-status"><option value="idle">T-pose idle</option></select>
+        <p class="hint" id="motion-status" role="status">Loading motion library…</p>
+        <div class="control left-control">
+          <label for="left-mass"><span class="hand-label"><i aria-hidden="true"></i>Left hand</span><span><output id="left-mass-value">0.0</output> <small>kg</small></span></label>
+          <input id="left-mass" type="range" min="0" max="2" step="1" value="0" disabled>
+          <div class="range-labels" aria-hidden="true"><span>0 kg</span><span>1 kg</span><span>2 kg</span></div>
+        </div>
+        <div class="control right-control">
+          <label for="right-mass"><span class="hand-label"><i aria-hidden="true"></i>Right hand</span><span><output id="right-mass-value">0.0</output> <small>kg</small></span></label>
+          <input id="right-mass" type="range" min="0" max="2" step="1" value="0" disabled>
+          <div class="range-labels" aria-hidden="true"><span>0 kg</span><span>1 kg</span><span>2 kg</span></div>
+        </div>
+        <p class="control-note">Loads change live, without restarting the motion.</p>
+        <div class="presets" aria-label="Quick hand loads">
+          <button data-left="1" data-right="0" title="Left hand 1 kg, right hand 0 kg" disabled>Left only</button>
+          <button data-left="0" data-right="1" title="Left hand 0 kg, right hand 1 kg" disabled>Right only</button>
+          <button data-left="1" data-right="1" disabled>1 kg each</button>
+          <button data-left="2" data-right="2" disabled>2 kg each</button>
+          <button data-left="2" data-right="1" title="Left hand 2 kg, right hand 1 kg" disabled>2 kg / 1 kg</button>
+          <button data-left="0" data-right="0" disabled>Unload both</button>
+        </div>
+        <details class="reset-settings">
+          <summary>Starting configuration</summary>
+          <label class="motion-label" for="environment">Left / right hand payload</label>
+          <select id="environment" disabled aria-describedby="environment-status"></select>
+          <p class="hint" id="environment-status">Choosing a configuration restarts the simulation.</p>
+        </details>
+      </section>
+      <section class="module scene-panel" aria-labelledby="simulation-title">
+        <div class="scene-head"><h2 id="simulation-title">Live simulation</h2><label><input id="ghost" type="checkbox"> Show reference</label></div>
+        <div id="viewport">
+          <div id="loading">
+            <span class="loading-mark" aria-hidden="true">E</span>
+            <strong id="loading-title" role="status" aria-atomic="true">Preparing your demo</strong>
+            <small id="loading-detail">Loading the controller and simulation. Motions load when selected.</small>
+            <progress id="loading-progress" max="100" aria-label="Loading the demo"></progress>
+          </div>
+          <div class="scene-overlay">
+            <div class="adaptation-status">
+              <span id="mode" role="status">Preparing</span>
+              <progress id="history-progress" max="350" value="0" aria-labelledby="mode" aria-valuetext="0% of interaction history collected"></progress>
+            </div>
+            <strong id="sim-time">0.00 <small>s</small></strong>
+          </div>
+          <div class="payload-key"><span class="left-dot">Left load</span><span class="right-dot">Right load</span></div>
+        </div>
+        <div class="transport"><button id="play" class="primary" disabled>Start</button><button id="reset" disabled>Reset</button><div class="timeline" aria-hidden="true"><div id="progress"></div></div><span id="duration">T-pose idle</span></div>
+        <p class="scene-help">Drag to orbit · Scroll to zoom<span>Reset returns to the starting configuration.</span></p>
+        <p id="runtime-error" class="runtime-error" role="alert" hidden></p>
+      </section>
+      <section class="module latent-panel" aria-labelledby="atlas-heading">
+        <div class="section-head"><h2 id="atlas-heading">Live context atlas</h2></div>
+        <div class="atlas-heading"><p>Colors group the sampled hand-load combinations. The dark point traces the live representation.</p><span id="atlas-summary">Loading atlas…</span></div>
+        <div class="atlas-plot">
+          <canvas id="latent" tabindex="0" aria-label="Context atlas. Hover or click a region to inspect its hand loads, or select a group below."></canvas>
+          <div class="atlas-overlay"><span class="live-dot" aria-hidden="true"></span><span id="atlas-live">Waiting for live history</span></div>
+          <div id="atlas-tooltip" role="tooltip" hidden></div>
+        </div>
+        <div id="atlas-legend" class="atlas-legend" aria-label="Inspect a payload group"></div>
+        <div id="atlas-detail" class="atlas-detail">
+          <div class="detail-title"><span id="atlas-swatch" aria-hidden="true"></span><strong id="atlas-title">Explore a payload group</strong><span id="atlas-pin"></span></div>
+          <p id="atlas-description">Hover to inspect a group; click to keep its details visible.</p>
+          <div class="env-values"><div><small>Left hand</small><strong id="atlas-left">—</strong></div><div><small>Right hand</small><strong id="atlas-right">—</strong></div><div><small>Total load</small><strong id="atlas-total">—</strong></div></div>
+        </div>
+        <p class="atlas-note">The live point appears after 7 seconds of simulation history. Its position is an approximate projection onto a fixed map.</p>
+      </section>
+    </div>
+  </main>
+  <!-- Keep diagnostic targets for runtime updates and older cached scripts, without displaying a module. -->
+  <details id="runtime-metrics" hidden aria-hidden="true">
+    <summary>Runtime metrics</summary>
+    <p id="status">Preparing browser runtime…</p>
+    <output id="backend">Initializing</output>
+    <output id="inference">—</output>
+    <output id="speed">—</output>
+    <output id="mpjpe">—</output>
+    <output id="memory">0 / 350</output>
+  </details>
+  <script type="module" src="startup.js?v=20261113-online"></script>
+</body>
+</html>
